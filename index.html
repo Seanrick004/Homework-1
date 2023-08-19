@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Homework #1</title>
-    <meta name="description" content="Homework #1">
+    <title>Homework #2</title>
+    <meta name="description" content="Homework #2">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <!--header section-->
     <header>
-      <nav>
-        <a class="webstudio-logo" href="https://seanrick004.github.io/Homework-1/">WEBSTUDIO</a>
+      <nav class="header-nav">
+        <a class="webstudio-logo" href="/"><img src="images/Logo (1).jpg" alt="webstudio-logo"></a>
         <ul class="navigation-lists">
-          <li class="nav-lists"><a href="/">Studio</a></li>
-          <li class="nav-lists"><a href="/">Portfolio</a></li>
-          <li class="nav-lists"><a href="/">Contacts</a></li>
+          <li class="nav-lists-studio"><a href="/">Studio</a></li>
+          <li class="nav-lists-portfolio"><a href="/">Portfolio</a></li>
+          <li class="nav-lists-contacts"><a href="/">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li class="addressee"><a class="addressee" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="addressee"><a class="addressee" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="contact-info">
+          <li class="addresses"><a class="e-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="addresses"><a class="phone-number" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <!--main section-->
     <main>
       <section class="main">
-        <h1 class="main-text">
+        <h1 class="main-text"><br><br><br>
           Effective Solutions <br>
           for Your Business
         </h1>
@@ -34,7 +41,7 @@
       </section>
       <section class="features">
         <h2 hidden>Features</h2>
-        <ul>
+        <ul class="feature-lists">
           <li>
             <h3 class="feature-strategy">Strategy</h3>
             <p class="feature-strategy-description">
@@ -44,8 +51,8 @@
             </p>
           </li>
           <li>
-            <h3 class="features-punctuality">Punctuality</h3>
-            <p class="features-punctuality-description">
+            <h3 class="feature-punctuality">Punctuality</h3>
+            <p class="feature-punctuality-description">
               Bring the message to the <br>
               brand's audience for the best price <br>
               within the shortest possible time.
@@ -70,42 +77,42 @@
         </ul>
       </section>
       <section class="products-and-services">
-        <h2 class="prudcts-and-services-maintext">What Are We Doing</h2>
+        <h2 class="products-and-services-maintext">What Are We Doing</h2>
         <ul>
-          <li class="prudcts-and-services-maintext-details"><img src="images/monitor.jpg" width="150" alt="Computer"></li>
-          <li class="prudcts-and-services-maintext-details"><img src="images/mobile.jpg" width="150" alt="Mobile"></li>
-          <li class="prudcts-and-services-maintext-details"><img src="images/mobile-user.jpg" width="150" alt="Mobile and user"></li>
+          <li class="products-and-services-details"><img class="products-and-services-monitor" src="images/monitor.jpg" width="360px" height="300px" alt="Computer"></li>
+          <li class="products-and-services-details"><img class="products-and-services-mobile" src="images/mobile.jpg" width="360px" height="300px" alt="Mobile"></li>
+          <li class="products-and-services-details"><img class="products-and-services-mobile-user" src="images/mobile-user.jpg" width="360px" height="300px" alt="Mobile and user"></li>
         </ul>
       </section>
-      <section class="team-members">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="images/markguerrero.jpg" alt="Mark Guerrero">
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+      <section class="our-members">
+        <h2 class="team-members-section-maintext" >Our Team</h2>
+        <ul class="member-lists">
+          <li class="team-members">
+            <img class="mark-guerrero-img" src="images/markguerrero.jpg" width="264px" height="260px" alt="Mark Guerrero">
+            <h3 class="mark-guerrero-name" >Mark Guerrero</h3>
+            <p class="mark-guerrero-position" >Product Designer</p>
           </li>
           <li>
-            <img src="images/tomford.jpg" alt="Tom Ford">
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <img class="tom-ford-img" src="images/tomford.jpg" width="264px" height="260px" alt="Tom Ford">
+            <h3 class="tom-ford-name">Tom Ford</h3>
+            <p class="tom-ford-position">Frontend Developer</p>
           </li>
-          <li>
-            <img src="images/camilagarcia.jpg" alt="Camila Garcia">
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+          <li class="team-members">
+            <img class="camila-garcia-img" src="images/camilagarcia.jpg" width="264px" height="260px" alt="Camila Garcia">
+            <h3 class="camila-garcia-name" >Camila Garcia</h3>
+            <p class="camila-garcia-position" >Marketing</p>
           </li>
-          <li>
-            <img src="images/danielwilson.jpg" alt="Daniel Wilson">
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="team-members">
+            <img class="daniel-wilson-img" src="images/danielwilson.jpg" width="264px" height="260px" alt="Daniel Wilson">
+            <h3 class="daniel-wilson-name">Daniel Wilson</h3>
+            <p class="daniel-wilson-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="https://seanrick004.github.io/Homework-1/">WEBSTUDIO</a>
-      <p>
+      <a class="webstudio-logo"><span class="span-web">WEB</span>STUDIO</a>
+      <p class="footer-description">
         Increase the flow of customers and <br>
         sales for your business with digital <br>
         marketing & growth solutions.
